@@ -53,11 +53,11 @@ NGrammDistribution<CharType>::NGrammDistribution(size_t n, size_t step, const st
         addStat(stats, std::vector<CharType>(text.cbegin() + i, text.cbegin() + i + n));
     }
 
-    processStats(stats);
+    processStats(n, stats);
 }
 
 template <typename CharType>
-void NGrammDistribution<CharType>::processStats(const std::vector<statRaw> &stats) {
+void NGrammDistribution<CharType>::processStats(size_t n, const std::vector<statRaw> &stats) {
     res.reserve(stats.size());
 
     for (auto &s: stats) {
@@ -66,6 +66,8 @@ void NGrammDistribution<CharType>::processStats(const std::vector<statRaw> &stat
             H_ += -val * log2(val);
         res.emplace_back(s.first, val);
     }
+
+    H_ /= n;
 }
 
 template <typename CharType>

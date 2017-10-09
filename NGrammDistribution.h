@@ -22,7 +22,7 @@ public:
 
 private:
     void addStat(std::vector<statRaw> &stats, const std::vector<CharType> &text);
-    void processStats(const std::vector<statRaw> &stats);
+    void processStats(size_t n, const std::vector<statRaw> &stats);
 
     size_t totalStats = 0;
     double H_ = 0;
