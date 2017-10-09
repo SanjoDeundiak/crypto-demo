@@ -98,6 +98,12 @@
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/Distribution.h">
 			<Option target="lab1"/>
 		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/DrCalculator.cxx">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/DrCalculator.h">
+			<Option target="lab1"/>
+		</Unit>
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/Index.cxx">
 			<Option target="lab1"/>
 		</Unit>

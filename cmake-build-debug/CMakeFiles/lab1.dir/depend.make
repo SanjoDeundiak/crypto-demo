@@ -12,6 +12,11 @@ CMakeFiles/lab1.dir/Distribution.cxx.o: ../Distribution.cxx
 CMakeFiles/lab1.dir/Distribution.cxx.o: ../Distribution.h
 CMakeFiles/lab1.dir/Distribution.cxx.o: ../LatinCharacter.h
 
+CMakeFiles/lab1.dir/DrCalculator.cxx.o: ../CyrillicCharacter.h
+CMakeFiles/lab1.dir/DrCalculator.cxx.o: ../DrCalculator.cxx
+CMakeFiles/lab1.dir/DrCalculator.cxx.o: ../DrCalculator.h
+CMakeFiles/lab1.dir/DrCalculator.cxx.o: ../LatinCharacter.h
+
 CMakeFiles/lab1.dir/Index.cxx.o: ../CyrillicCharacter.h
 CMakeFiles/lab1.dir/Index.cxx.o: ../Index.cxx
 CMakeFiles/lab1.dir/Index.cxx.o: ../Index.h
@@ -50,6 +55,7 @@ CMakeFiles/lab1.dir/Vigener.cxx.o: ../Vigener.h
 
 CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o: ../CyrillicCharacter.h
 CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o: ../Distribution.h
+CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o: ../DrCalculator.h
 CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o: ../LatinCharacter.h
 CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o: ../SizeGuess.h
 CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o: ../TextConverter.h

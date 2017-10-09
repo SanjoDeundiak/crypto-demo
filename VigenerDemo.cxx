@@ -44,7 +44,7 @@ VigenerDemo::VigenerDemo(std::string filename) {
         auto cipherText = vigener.encrypt(plainText);
 
         std::cout << std::endl << "==================" << std::endl;
-        std::cout << "Key index: " << keysStr[i] << std::endl;
+        std::cout << "Key: " << keysStr[i] << std::endl;
         std::cout << "Ciphertext index: " << Index::Compute(cipherText) << std::endl;
     }
 }

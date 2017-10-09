@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab1.dir/VigenerDemo.cxx.o"
   "CMakeFiles/lab1.dir/NGrammDistribution.cxx.o"
   "CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o"
+  "CMakeFiles/lab1.dir/DrCalculator.cxx.o"
   "lab1.pdb"
   "lab1"
 )

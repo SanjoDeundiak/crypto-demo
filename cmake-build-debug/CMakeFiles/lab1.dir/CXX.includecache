@@ -40,6 +40,20 @@ LatinCharacter.h
 map
 -
 
+/Users/sanjo/sources/crypto/lab1/DrCalculator.cxx
+iostream
+-
+DrCalculator.h
+/Users/sanjo/sources/crypto/lab1/DrCalculator.h
+LatinCharacter.h
+/Users/sanjo/sources/crypto/lab1/LatinCharacter.h
+CyrillicCharacter.h
+/Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
+
+/Users/sanjo/sources/crypto/lab1/DrCalculator.h
+vector
+-
+
 /Users/sanjo/sources/crypto/lab1/Index.cxx
 iostream
 -
@@ -84,6 +98,8 @@ vector
 
 /Users/sanjo/sources/crypto/lab1/SizeGuess.cxx
 cmath
+-
+iostream
 -
 SizeGuess.h
 /Users/sanjo/sources/crypto/lab1/SizeGuess.h
@@ -165,6 +181,8 @@ Vigener.h
 /Users/sanjo/sources/crypto/lab1/Vigener.h
 TextStats.h
 /Users/sanjo/sources/crypto/lab1/TextStats.h
+DrCalculator.h
+/Users/sanjo/sources/crypto/lab1/DrCalculator.h
 
 /Users/sanjo/sources/crypto/lab1/VigenerCryptoAnalysis.h
 string

@@ -204,6 +204,33 @@ Distribution.cxx.s:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Distribution.cxx.s
 .PHONY : Distribution.cxx.s
 
+DrCalculator.o: DrCalculator.cxx.o
+
+.PHONY : DrCalculator.o
+
+# target to build an object file
+DrCalculator.cxx.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/DrCalculator.cxx.o
+.PHONY : DrCalculator.cxx.o
+
+DrCalculator.i: DrCalculator.cxx.i
+
+.PHONY : DrCalculator.i
+
+# target to preprocess a source file
+DrCalculator.cxx.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/DrCalculator.cxx.i
+.PHONY : DrCalculator.cxx.i
+
+DrCalculator.s: DrCalculator.cxx.s
+
+.PHONY : DrCalculator.s
+
+# target to generate assembly for a file
+DrCalculator.cxx.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/DrCalculator.cxx.s
+.PHONY : DrCalculator.cxx.s
+
 Index.o: Index.cxx.o
 
 .PHONY : Index.o
@@ -492,6 +519,9 @@ help:
 	@echo "... Distribution.o"
 	@echo "... Distribution.i"
 	@echo "... Distribution.s"
+	@echo "... DrCalculator.o"
+	@echo "... DrCalculator.i"
+	@echo "... DrCalculator.s"
 	@echo "... Index.o"
 	@echo "... Index.i"
 	@echo "... Index.s"

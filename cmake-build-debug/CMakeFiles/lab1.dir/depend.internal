@@ -12,6 +12,11 @@ CMakeFiles/lab1.dir/Distribution.cxx.o
  /Users/sanjo/sources/crypto/lab1/Distribution.cxx
  /Users/sanjo/sources/crypto/lab1/Distribution.h
  /Users/sanjo/sources/crypto/lab1/LatinCharacter.h
+CMakeFiles/lab1.dir/DrCalculator.cxx.o
+ /Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
+ /Users/sanjo/sources/crypto/lab1/DrCalculator.cxx
+ /Users/sanjo/sources/crypto/lab1/DrCalculator.h
+ /Users/sanjo/sources/crypto/lab1/LatinCharacter.h
 CMakeFiles/lab1.dir/Index.cxx.o
  /Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
  /Users/sanjo/sources/crypto/lab1/Index.cxx
@@ -51,6 +56,7 @@ CMakeFiles/lab1.dir/Vigener.cxx.o
 CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o
  /Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
  /Users/sanjo/sources/crypto/lab1/Distribution.h
+ /Users/sanjo/sources/crypto/lab1/DrCalculator.h
  /Users/sanjo/sources/crypto/lab1/LatinCharacter.h
  /Users/sanjo/sources/crypto/lab1/SizeGuess.h
  /Users/sanjo/sources/crypto/lab1/TextConverter.h

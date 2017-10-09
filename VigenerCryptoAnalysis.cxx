@@ -11,6 +11,7 @@
 #include "Distribution.h"
 #include "Vigener.h"
 #include "TextStats.h"
+#include "DrCalculator.h"
 
 VigenerCryptoAnalysis::VigenerCryptoAnalysis(bool isCyrillic, std::string filename) {
     analyse(isCyrillic, std::move(filename));
@@ -38,6 +39,8 @@ void VigenerCryptoAnalysis::analyse_(std::string filename, double idealIndex, in
     auto text = TextConverter<CharType>::Convert(textStr);
 
     auto keyLength = SizeGuess::Guess(text, rmin, rmax, idealIndex, 0.1);
+
+    DrCalculator::Calculate<CharType>(text, 5, 20);
 
     std::vector<CharType> key(keyLength, CharType(0));
 

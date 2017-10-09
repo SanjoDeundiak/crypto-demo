@@ -3,6 +3,7 @@
 //
 
 #include <cmath>
+#include <iostream>
 #include "SizeGuess.h"
 #include "Index.h"
 #include "CyrillicCharacter.h"
@@ -10,6 +11,7 @@
 
 template <typename T>
 int SizeGuess::Guess(const std::vector<T> &text, int rmin, int rmax, double idealIndex, double eps) {
+    std::cout << std::endl << std::endl << "====SizeGuess====" << std::endl;
     for (int i = rmin; i <= rmax; i++) {
         double avgIndex = 0;
         for (size_t j = 0; j < i; j++) {
@@ -25,10 +27,15 @@ int SizeGuess::Guess(const std::vector<T> &text, int rmin, int rmax, double idea
             avgIndex += index / i;
         }
 
-        if (abs(avgIndex - idealIndex) / idealIndex < eps)
+        std::cout << "Index for r=" << i << ": " << avgIndex << std::endl;
+
+        if (abs(avgIndex - idealIndex) / idealIndex < eps) {
+            std::cout << "====SizeGuess====" << std::endl << std::endl;
             return i;
+        }
     }
 
+    std::cout << "====SizeGuess====" << std::endl << std::endl;
     return -1;
 }
 
