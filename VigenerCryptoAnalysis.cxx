@@ -40,7 +40,7 @@ void VigenerCryptoAnalysis::analyse_(std::string filename, double idealIndex, in
 
     auto keyLength = SizeGuess::Guess(text, rmin, rmax, idealIndex, 0.1);
 
-    DrCalculator::Calculate<CharType>(text, 5, 20);
+    DrCalculator::Calculate<CharType>(text, 5, 30);
 
     std::vector<CharType> key(keyLength, CharType(0));
 
