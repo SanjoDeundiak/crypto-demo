@@ -7,10 +7,22 @@
 #IncludeRegexTransform: 
 
 /Users/sanjo/sources/crypto/lab1/CyrillicCharacter.cxx
+iostream
+-
 CyrillicCharacter.h
 /Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
 
 /Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
+vector
+-
+string
+-
+
+/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.cxx
+CyrillicExtendedCharacter.h
+/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.h
+
+/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.h
 vector
 -
 string
@@ -52,6 +64,24 @@ string
 vector
 -
 
+/Users/sanjo/sources/crypto/lab1/NGrammDistribution.cxx
+cmath
+-
+fstream
+-
+NGrammDistribution.h
+/Users/sanjo/sources/crypto/lab1/NGrammDistribution.h
+TextConverter.h
+/Users/sanjo/sources/crypto/lab1/TextConverter.h
+CyrillicExtendedCharacter.h
+/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.h
+CyrillicCharacter.h
+/Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
+
+/Users/sanjo/sources/crypto/lab1/NGrammDistribution.h
+vector
+-
+
 /Users/sanjo/sources/crypto/lab1/SizeGuess.cxx
 cmath
 -
@@ -75,6 +105,8 @@ CyrillicCharacter.h
 /Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
 LatinCharacter.h
 /Users/sanjo/sources/crypto/lab1/LatinCharacter.h
+CyrillicExtendedCharacter.h
+/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.h
 
 /Users/sanjo/sources/crypto/lab1/TextConverter.h
 vector
@@ -161,8 +193,16 @@ string
 /Users/sanjo/sources/crypto/lab1/main.cpp
 iostream
 -
+fstream
+-
 VigenerCryptoAnalysis.h
 /Users/sanjo/sources/crypto/lab1/VigenerCryptoAnalysis.h
 VigenerDemo.h
 /Users/sanjo/sources/crypto/lab1/VigenerDemo.h
+NGrammDistribution.h
+/Users/sanjo/sources/crypto/lab1/NGrammDistribution.h
+CyrillicExtendedCharacter.h
+/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.h
+CyrillicCharacter.h
+/Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h
 

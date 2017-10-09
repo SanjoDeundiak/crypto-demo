@@ -5,6 +5,7 @@
 #include "TextConverter.h"
 #include "CyrillicCharacter.h"
 #include "LatinCharacter.h"
+#include "CyrillicExtendedCharacter.h"
 
 template <typename T>
 std::vector<T> TextConverter<T>::Convert(const std::string &str) {
@@ -22,7 +23,18 @@ std::vector<CyrillicCharacter> TextConverter<CyrillicCharacter>::Convert(const s
     std::vector<CyrillicCharacter> result;
     result.reserve(str.size() / 2);
     for (size_t i = 0; i < str.size(); i += 2) {
-        result.push_back(CyrillicCharacter(std::string{str[i], str[i+1]}));
+        result.emplace_back(std::string{str[i], str[i+1]});
+    }
+
+    return result;
+}
+
+template <>
+std::vector<CyrillicExtendedCharacter> TextConverter<CyrillicExtendedCharacter>::Convert(const std::string &str) {
+    std::vector<CyrillicExtendedCharacter> result;
+    result.reserve(str.size() / 2);
+    for (size_t i = 0; i < str.size(); i += 2) {
+        result.emplace_back(std::string{str[i], str[i+1]});
     }
 
     return result;
@@ -49,4 +61,5 @@ std::string TextConverter<T>::Convert(const std::vector<T> &text, int breakInter
 }
 
 template class TextConverter<CyrillicCharacter>;
+template class TextConverter<CyrillicExtendedCharacter>;
 template class TextConverter<LatinCharacter>;

@@ -321,6 +321,54 @@ CMakeFiles/lab1.dir/VigenerDemo.cxx.o.provides: CMakeFiles/lab1.dir/VigenerDemo.
 CMakeFiles/lab1.dir/VigenerDemo.cxx.o.provides.build: CMakeFiles/lab1.dir/VigenerDemo.cxx.o
 
 
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o: ../NGrammDistribution.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sanjo/sources/crypto/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/lab1.dir/NGrammDistribution.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/NGrammDistribution.cxx.o -c /Users/sanjo/sources/crypto/lab1/NGrammDistribution.cxx
+
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/NGrammDistribution.cxx.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sanjo/sources/crypto/lab1/NGrammDistribution.cxx > CMakeFiles/lab1.dir/NGrammDistribution.cxx.i
+
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/NGrammDistribution.cxx.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sanjo/sources/crypto/lab1/NGrammDistribution.cxx -o CMakeFiles/lab1.dir/NGrammDistribution.cxx.s
+
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.requires:
+
+.PHONY : CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.requires
+
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.provides: CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.requires
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.provides.build
+.PHONY : CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.provides
+
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.provides.build: CMakeFiles/lab1.dir/NGrammDistribution.cxx.o
+
+
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o: ../CyrillicExtendedCharacter.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sanjo/sources/crypto/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o -c /Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.cxx
+
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.cxx > CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.i
+
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.cxx -o CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.s
+
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.requires:
+
+.PHONY : CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.requires
+
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.provides: CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.requires
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.provides.build
+.PHONY : CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.provides
+
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.provides.build: CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o
+
+
 # Object files for target lab1
 lab1_OBJECTS = \
 "CMakeFiles/lab1.dir/main.cpp.o" \
@@ -333,7 +381,9 @@ lab1_OBJECTS = \
 "CMakeFiles/lab1.dir/Distribution.cxx.o" \
 "CMakeFiles/lab1.dir/LatinCharacter.cxx.o" \
 "CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o" \
-"CMakeFiles/lab1.dir/VigenerDemo.cxx.o"
+"CMakeFiles/lab1.dir/VigenerDemo.cxx.o" \
+"CMakeFiles/lab1.dir/NGrammDistribution.cxx.o" \
+"CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o"
 
 # External object files for target lab1
 lab1_EXTERNAL_OBJECTS =
@@ -349,9 +399,11 @@ lab1: CMakeFiles/lab1.dir/Distribution.cxx.o
 lab1: CMakeFiles/lab1.dir/LatinCharacter.cxx.o
 lab1: CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o
 lab1: CMakeFiles/lab1.dir/VigenerDemo.cxx.o
+lab1: CMakeFiles/lab1.dir/NGrammDistribution.cxx.o
+lab1: CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o
 lab1: CMakeFiles/lab1.dir/build.make
 lab1: CMakeFiles/lab1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sanjo/sources/crypto/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sanjo/sources/crypto/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable lab1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -370,6 +422,8 @@ CMakeFiles/lab1.dir/requires: CMakeFiles/lab1.dir/Distribution.cxx.o.requires
 CMakeFiles/lab1.dir/requires: CMakeFiles/lab1.dir/LatinCharacter.cxx.o.requires
 CMakeFiles/lab1.dir/requires: CMakeFiles/lab1.dir/VigenerCryptoAnalysis.cxx.o.requires
 CMakeFiles/lab1.dir/requires: CMakeFiles/lab1.dir/VigenerDemo.cxx.o.requires
+CMakeFiles/lab1.dir/requires: CMakeFiles/lab1.dir/NGrammDistribution.cxx.o.requires
+CMakeFiles/lab1.dir/requires: CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o.requires
 
 .PHONY : CMakeFiles/lab1.dir/requires
 

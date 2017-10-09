@@ -86,6 +86,12 @@
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/CyrillicCharacter.h">
 			<Option target="lab1"/>
 		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.cxx">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/CyrillicExtendedCharacter.h">
+			<Option target="lab1"/>
+		</Unit>
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/Distribution.cxx">
 			<Option target="lab1"/>
 		</Unit>
@@ -102,6 +108,12 @@
 			<Option target="lab1"/>
 		</Unit>
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/LatinCharacter.h">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/NGrammDistribution.cxx">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/NGrammDistribution.h">
 			<Option target="lab1"/>
 		</Unit>
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/SizeGuess.cxx">
@@ -150,6 +162,12 @@
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/latin.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/cyrillicTest.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sanjo/sources/crypto/lab1/cyrillicExtendedTest.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 		<Unit filename="/Users/sanjo/sources/crypto/lab1/gunslinger.txt">

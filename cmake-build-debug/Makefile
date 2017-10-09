@@ -150,6 +150,33 @@ CyrillicCharacter.cxx.s:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/CyrillicCharacter.cxx.s
 .PHONY : CyrillicCharacter.cxx.s
 
+CyrillicExtendedCharacter.o: CyrillicExtendedCharacter.cxx.o
+
+.PHONY : CyrillicExtendedCharacter.o
+
+# target to build an object file
+CyrillicExtendedCharacter.cxx.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o
+.PHONY : CyrillicExtendedCharacter.cxx.o
+
+CyrillicExtendedCharacter.i: CyrillicExtendedCharacter.cxx.i
+
+.PHONY : CyrillicExtendedCharacter.i
+
+# target to preprocess a source file
+CyrillicExtendedCharacter.cxx.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.i
+.PHONY : CyrillicExtendedCharacter.cxx.i
+
+CyrillicExtendedCharacter.s: CyrillicExtendedCharacter.cxx.s
+
+.PHONY : CyrillicExtendedCharacter.s
+
+# target to generate assembly for a file
+CyrillicExtendedCharacter.cxx.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.s
+.PHONY : CyrillicExtendedCharacter.cxx.s
+
 Distribution.o: Distribution.cxx.o
 
 .PHONY : Distribution.o
@@ -230,6 +257,33 @@ LatinCharacter.s: LatinCharacter.cxx.s
 LatinCharacter.cxx.s:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/LatinCharacter.cxx.s
 .PHONY : LatinCharacter.cxx.s
+
+NGrammDistribution.o: NGrammDistribution.cxx.o
+
+.PHONY : NGrammDistribution.o
+
+# target to build an object file
+NGrammDistribution.cxx.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/NGrammDistribution.cxx.o
+.PHONY : NGrammDistribution.cxx.o
+
+NGrammDistribution.i: NGrammDistribution.cxx.i
+
+.PHONY : NGrammDistribution.i
+
+# target to preprocess a source file
+NGrammDistribution.cxx.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/NGrammDistribution.cxx.i
+.PHONY : NGrammDistribution.cxx.i
+
+NGrammDistribution.s: NGrammDistribution.cxx.s
+
+.PHONY : NGrammDistribution.s
+
+# target to generate assembly for a file
+NGrammDistribution.cxx.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/NGrammDistribution.cxx.s
+.PHONY : NGrammDistribution.cxx.s
 
 SizeGuess.o: SizeGuess.cxx.o
 
@@ -432,6 +486,9 @@ help:
 	@echo "... CyrillicCharacter.o"
 	@echo "... CyrillicCharacter.i"
 	@echo "... CyrillicCharacter.s"
+	@echo "... CyrillicExtendedCharacter.o"
+	@echo "... CyrillicExtendedCharacter.i"
+	@echo "... CyrillicExtendedCharacter.s"
 	@echo "... Distribution.o"
 	@echo "... Distribution.i"
 	@echo "... Distribution.s"
@@ -441,6 +498,9 @@ help:
 	@echo "... LatinCharacter.o"
 	@echo "... LatinCharacter.i"
 	@echo "... LatinCharacter.s"
+	@echo "... NGrammDistribution.o"
+	@echo "... NGrammDistribution.i"
+	@echo "... NGrammDistribution.s"
 	@echo "... SizeGuess.o"
 	@echo "... SizeGuess.i"
 	@echo "... SizeGuess.s"

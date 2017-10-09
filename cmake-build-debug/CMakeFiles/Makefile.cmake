@@ -34,6 +34,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeSystem.cmake"
   "../cyrillic.txt"
+  "../cyrillicExtendedTest.txt"
+  "../cyrillicTest.txt"
   "../gunslinger.txt"
   "../latin.txt"
   )
@@ -48,6 +50,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "cyrillic.txt"
   "latin.txt"
+  "cyrillicTest.txt"
+  "cyrillicExtendedTest.txt"
   "gunslinger.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

@@ -4,6 +4,9 @@
 CMakeFiles/lab1.dir/CyrillicCharacter.cxx.o: ../CyrillicCharacter.cxx
 CMakeFiles/lab1.dir/CyrillicCharacter.cxx.o: ../CyrillicCharacter.h
 
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o: ../CyrillicExtendedCharacter.cxx
+CMakeFiles/lab1.dir/CyrillicExtendedCharacter.cxx.o: ../CyrillicExtendedCharacter.h
+
 CMakeFiles/lab1.dir/Distribution.cxx.o: ../CyrillicCharacter.h
 CMakeFiles/lab1.dir/Distribution.cxx.o: ../Distribution.cxx
 CMakeFiles/lab1.dir/Distribution.cxx.o: ../Distribution.h
@@ -17,6 +20,12 @@ CMakeFiles/lab1.dir/Index.cxx.o: ../LatinCharacter.h
 CMakeFiles/lab1.dir/LatinCharacter.cxx.o: ../LatinCharacter.cxx
 CMakeFiles/lab1.dir/LatinCharacter.cxx.o: ../LatinCharacter.h
 
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o: ../CyrillicCharacter.h
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o: ../CyrillicExtendedCharacter.h
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o: ../NGrammDistribution.cxx
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o: ../NGrammDistribution.h
+CMakeFiles/lab1.dir/NGrammDistribution.cxx.o: ../TextConverter.h
+
 CMakeFiles/lab1.dir/SizeGuess.cxx.o: ../CyrillicCharacter.h
 CMakeFiles/lab1.dir/SizeGuess.cxx.o: ../Index.h
 CMakeFiles/lab1.dir/SizeGuess.cxx.o: ../LatinCharacter.h
@@ -24,6 +33,7 @@ CMakeFiles/lab1.dir/SizeGuess.cxx.o: ../SizeGuess.cxx
 CMakeFiles/lab1.dir/SizeGuess.cxx.o: ../SizeGuess.h
 
 CMakeFiles/lab1.dir/TextConverter.cxx.o: ../CyrillicCharacter.h
+CMakeFiles/lab1.dir/TextConverter.cxx.o: ../CyrillicExtendedCharacter.h
 CMakeFiles/lab1.dir/TextConverter.cxx.o: ../LatinCharacter.h
 CMakeFiles/lab1.dir/TextConverter.cxx.o: ../TextConverter.cxx
 CMakeFiles/lab1.dir/TextConverter.cxx.o: ../TextConverter.h
@@ -55,6 +65,9 @@ CMakeFiles/lab1.dir/VigenerDemo.cxx.o: ../Vigener.h
 CMakeFiles/lab1.dir/VigenerDemo.cxx.o: ../VigenerDemo.cxx
 CMakeFiles/lab1.dir/VigenerDemo.cxx.o: ../VigenerDemo.h
 
+CMakeFiles/lab1.dir/main.cpp.o: ../CyrillicCharacter.h
+CMakeFiles/lab1.dir/main.cpp.o: ../CyrillicExtendedCharacter.h
+CMakeFiles/lab1.dir/main.cpp.o: ../NGrammDistribution.h
 CMakeFiles/lab1.dir/main.cpp.o: ../VigenerCryptoAnalysis.h
 CMakeFiles/lab1.dir/main.cpp.o: ../VigenerDemo.h
 CMakeFiles/lab1.dir/main.cpp.o: ../main.cpp
